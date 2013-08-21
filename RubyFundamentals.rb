@@ -128,4 +128,7 @@ def first_even(items)
   items.detect{|x| x.even?}
 end
 
-Exercise: Array Item Removal
+Exercise: Array Item Removal #INCOMPLETE
+.delete_at(2, 4)
+
+Exercise: Version Sort
