@@ -122,3 +122,10 @@ c ||= "rubeque"
 assert_equal a, "rubeque"
 assert_equal b, 8
 assert_equal c, "rubeque"
+
+Exercise: Bigger Element
+def first_even(items)
+  items.detect{|x| x.even?}
+end
+
+Exercise: Array Item Removal
