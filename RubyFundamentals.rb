@@ -103,3 +103,22 @@ b = "Barack Obama"
 
 assert_equal ((a =~ /[ ]\w'/) ?"Irish" : "Not Irish"), "Irish"
 assert_equal ((b =~ /[ ]\w'/) ?"Irish" : "Not Irish"), "Not Irish"
+
+Exercise: Shotgun Assignment
+a, b, c = "eat", "chunky", "bacon"
+
+assert_equal a, "eat"
+assert_equal b, "chunky"
+assert_equal c, "bacon"
+
+Exercise: Or Equal
+b = 8
+c = false
+
+a ||= "rubeque"
+b ||= "rubeque"
+c ||= "rubeque"
+
+assert_equal a, "rubeque"
+assert_equal b, 8
+assert_equal c, "rubeque"
